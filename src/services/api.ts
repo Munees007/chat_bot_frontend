@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://chat-bot-backend-sooty.vercel.app/"; // Adjust if hosted
+const API_URL = "https://chat-bot-backend-sooty.vercel.app/chatbot"; // Adjust if hosted
 
 // Get chatbot response
 export const getChatbotResponse = async (userInput: string, lang: string) => {
